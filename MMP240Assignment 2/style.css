@@ -1,0 +1,49 @@
+body{background-color: #99ffcc;
+		width: 700px;
+		height: 700px;}
+#nav h2,ul,li{margin: auto;
+
+				width: auto;
+				display: flex;
+				text-decoration: none; 
+				padding-bottom: 20px;
+			  }
+
+a:hover{text-decoration: none;}
+a:active{color: red;}
+a:visited{color: black; 
+	      text-decoration: none;}
+#beginning h1{ margin: auto;
+				width: auto;
+				text-align: center;}
+
+#beginning p { margin: auto;
+				width: 50%;
+
+				text-align: center;
+				padding-bottom: 30px;
+				font-size: 20px;}				
+
+#table h2{margin: auto;
+			width: auto;
+			text-align: center;
+		   padding-bottom: 5px;}
+#table table{ margin: auto;
+		width: 50%;
+		border:  3px solid black;
+		}
+#table img {margin: 0 auto;
+			padding-left: 0px; }
+		  
+		  
+
+footer{margin: auto;
+		padding-top: 100px}
+#beginning img {margin: auto;
+				display: block;
+				padding-bottom: 50px;}
+h1 {margin: auto;
+	width: auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;}
