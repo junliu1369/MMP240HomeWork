@@ -1,0 +1,42 @@
+html{
+font-family: 'Yellowtail', cursive;
+width: 800px;
+height: 600px;
+}
+#Navigation ul{
+ display: flex;
+ float: right;
+
+}
+#Navigation li{
+	font-size: 20px;
+	list-style-type: none;
+	padding-right: 100%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 50px;
+
+}
+a:link{
+	text-decoration: none;
+
+}
+a:visited{
+	text-decoration: none;
+}
+
+#adventure h1{
+	padding-top: 50px;
+	padding-right:50%; 
+	font-size: 50px;
+}
+#adventure p{
+	
+
+text-align: center;
+border: 1px solid;
+
+	
+	
+	font-size: 24px;
+}
