@@ -1,0 +1,53 @@
+.seeyouagain {
+
+}
+
+.lyrics{
+
+}
+.container{
+	display: inline-block;
+	width: 933px;
+	border: 1px solid black;
+	height: 600px;
+}
+.one
+  {
+	padding-bottom: 20px;
+	display: inline;
+	float: left;
+	width: 225px;
+	height: 580px;
+
+}
+.two {
+	padding-bottom: 20px;
+	display: inline;
+	float: left;
+	width: 225px;
+	padding-left: 10px;
+	border-left: 1px solid;
+	height: 580px;
+}
+.three {
+	padding-bottom: 20px;
+	display: inline;
+	float: left;
+	width: 225px;
+	padding-left: 10px;
+	border-left: 1px solid;
+	height: 580px;
+}
+.four {
+
+	padding-bottom: 20px;
+	display: inline;
+	float: left;
+	width: 225px;
+	padding-left: 10px;
+	border-left: 1px solid;
+	height: 580px;
+}
+section {
+	padding-bottom: 10px;
+}
