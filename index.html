@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>Beckenstein's</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+$(document).ready(function(){
+  
+  $(".accordion h3:first").addClass("active");
+  $(".accordion p:not(:first)").hide();
+
+  $(".accordion h3").click(function(){
+    $(this).next("p").slideToggle("slow")
+    .siblings("p:visible").slideUp("slow");
+    $(this).toggleClass("active");
+    $(this).siblings("h3").removeClass("active");
+  });
+
+});
+</script>
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+</head>
+<body>
+<div class="w3-content w3-section" style="max-width:100%">
+  <img class="mySlides" src="house-insurance-home-page-min.jpg" style="width:100%">
+  <img class="mySlides" src="workplace-trust.jpg" style="width:100%">
+  <img class="mySlides" src="6-Office-2.jpg" style="width:100%">
+  
+
+
+</div>
+<nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
+
+  <div class="container">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span> 
+      <span class="icon-bar"></span> 
+    </button>
+     <a class="navbar-brand" href="index.html">Beckenstein's Fabric & Interiors</a>
+    </div>
+      <div class="collapse navbar-collapse" id="collapsemenu">
+        <ul class="nav navbar-nav">
+          <li><a href="gallary.html">Gallary</a></li>
+          <li><a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+        <ul class="dropdown-menu"> 
+          <li><a href="us.html">Upholstery & Slipcovers</a></li>
+          <li><a href="wt.html">Window Treatement</a></li>
+          <li><a href="fabric.html">Fabric</a></li>
+          <li><a href="headboards.html">Headboards</a></li>
+          <li><a href="pc.html">Pillow & Cushions</a></li>
+          <li><a href="io.html">Indoor/Outdoor</a></li>
+          <li><a href="wallpaper.html">Wallpaper</a></li>
+          <li><a href="commerical.html">Commerical</a></li>
+        </ul>
+          <li><a href="vendor.html">Vendor</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul> 
+        <ul class="nav navbar-nav navbar-right">
+        <li>
+      <a href="https://www.facebook.com/BeckensteinFabricandInteriors" title="Facebook" class="colorlink2"><img src="http://beckensteinfabrics.com/wp-content/themes/beckend/assets/img/35px/facebook.png" alt="Facebook"></a>
+    </li>
+        <li><a href="https://twitter.com/mybeckenstein" title="Twitter" class="colorlink2"><img src="http://beckensteinfabrics.com/wp-content/themes/beckend/assets/img/35px/twitter.png" alt="Twitter"></a></li>
+        <li><a href="https://plus.google.com/+Beckensteinfabrics/posts" title="Google Plus" class="colorlink2"><img src="http://beckensteinfabrics.com/wp-content/themes/beckend/assets/img/35px/googleplus.png" alt="Google Plus"></a></li>
+        <li><a href="https://www.pinterest.com/beckenstein/" title="Pinterest" class="colorlink2"><img src="http://beckensteinfabrics.com/wp-content/themes/beckend/assets/img/35px/pinterest.png" alt="Pinterest"></a></li>
+        <li><a href="https://instagram.com/beckensteinfabrics/" title="Instagram" class="colorlink2"><img src="http://beckensteinfabrics.com/wp-content/uploads/2015/10/instagrams.png" alt="Instagram"></a></li>
+      </ul>
+
+      </div>   </nav>
+      </nav>
+  
+
+      
+<div class="container">
+    <div class="row">
+
+      <section class="col-md-8">
+        <div class="carousel slide" id="featured">
+         <ol class="carousel-indicators">
+              <li data-target="#featured" data-slide-to="0" class="active"></li>
+              <li data-target="#featured" data-slide-to="1"></li>
+              <li data-target="#featured" data-slide-to="2"></li>
+              <li data-target="#featured" data-slide-to="3"></li>
+              </ol>
+          <div class="carousel-inner">
+              <div class="item active">
+              <img src="c1.jpg" alt="BECKENSTEIN FABRICS & INTERIORS">
+              <div class="carousel-caption">
+              
+              </div>
+              </div>
+              <div class="item">
+              <img src="c2.jpg" alt="BECKENSTEIN FABRICS & INTERIORS">
+              <div class="carousel-caption">
+             
+              </div>
+              </div>
+              <div class="item">
+              <img src="c3.jpg" alt="BECKENSTEIN FABRICS & INTERIORS">
+              <div class="carousel-caption">
+              
+              </div>
+              </div>
+              <div class="item">
+              <img src="c4.jpg" alt="BECKENSTEIN FABRICS & INTERIORS">
+              <div class="carousel-caption">
+              
+              </div>
+              </div>
+          </div><!--carousel-inner ends here-->
+          <a class ="left carousel-control" href="#featured" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+
+              <a class ="right carousel-control" href="#featured" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        </div><!--carousel slide end here-->
+      </section>
+      <section class="col-md-4">
+        <div class="accordion">
+  <h3>Upholstery and Slipcovers</h3>
+  <p>When you entrust Beckenstein Fabrics to create custom upholstery and slipcovers, you can be confident you’ll receive the world-class service and attention to detail on which we’ve built our reputation. Quality is at the forefront of everything we do—it’s why our upholstery furniture shop in New York City has flourished for nearly a century. Count on us to skillfully recover your furniture with the fabric of your choice, tailoring the look to your style and comfort.</p>
+  <h3>Window Treatments</h3>
+  <p>Beckenstein Fabrics & Interiors is the industry leader in window treatments in NYC.
+
+Custom window treatments provide the finishing touch for every room with the proper balance of design and function. Our custom curtains, draperies, roman shades, roller shades, blinds, and shutters make a statement!
+
+Window treatments provide privacy and protection from exterior light and sound and are an important design element to finish your rooms. We suggest appropriate designs for every window, type and budget. We also provide decorative hardware in traditional and contemporary styles.</p>
+  <h3>Fabric</h3>
+  <p>Beckenstein Fabrics & Interiors does top-of-the-line work. We have thousands of designer fabrics as well as exclusive fabric patterns from the finest decorative mills around the world—cottons, linens, silks, and blended fibers specifically designed and used for home furnishings. We represent the top decorative fabric lines, showing hundreds of possibilities for home fabrics. Interior Design Services are available too!
+
+Come visit our showroom for a fabric and design consultation. See our beautiful fabrics or order fabric samples and swatches from our fabric library to view in your home. We offer over 2,000 sample books from all of the major fabric vendors and mills. With exclusive fabric selections from Kravet and others, our design staff is familiar with our selection and can help you find what you are looking for.</p>
+  <h3>Headboards / Bedding</h3>
+  <p>The difference between ready-made bedding and custom bedding is the difference between night and day. With custom bedding, you have full control over the look and feel of your room. Choose from thousands of unique fabrics and trims. Mix and match styles. Coordinate pieces. Want a patterned look? No problem. Prefer a solid color? That’s easy enough. Want to combine patterns and solids? You can do that as well. Do you fancy a fitted bedspread, or are you partial to a loose throw? Once you experience the custom difference, you’ll never buy one-size-fits-all bedding again.
+
+Custom made headboards are in high demand. With limited options in stores and a desire for something special, many people turn to fabrication services like ours to get the custom headboard they’ve been looking for. We can help you create the perfect custom headboard, crafted from the beautiful headboard fabrics of your choice, or simply take your ideas and turn them into reality, giving you the custom headboard that you have been dreaming of. Call us or fill out the form on this page when you’re ready to get started on your custom headboard.
+
+The right bedding can also transform an ordinary room into a personalized getaway. Select from an exclusive collection of lovely duvet covers and coverlets. If you need help finding the right fabric, trim, or cut, we can help you settle on the perfect look. Click the button below to request a live quote. You can also give us a call or head over to Manhattan to speak face-to-face with the friendly staff at our New York City store.</p>
+  <h3>Pillows / Cushions</h3>
+  <p>From decorative pillows to throw pillows, Beckenstein Fabrics & Interiors has exactly what you’re looking for. Whether you need outdoor pillows to liven up your patio or balcony, or throw pillows to add zest to your living room, you can find the perfect piece at our store, located in the heart of New York City.
+
+Custom pillows are the perfect accessory for any space. A little bit of decoration. A little bit of comfort. Cozy up the bedroom with a snug throw pillow. Add charm and style to the entryway with a decorative pillow for the foyer bench or chair. Create an inviting atmosphere on the patio with a nice arrangement of outdoor pillows. Whatever your needs, whatever your style, our custom pillows can rise to the occasion.
+
+Show us the pillows you love, tell us about the fabric you want or want to accent, and we can create the perfect pillow for you in our custom workroom. Spice up your living room with decorative pillows, upgrade your outdoor living space with custom outdoor cushions, or have throw pillows made for your bed. Give us a call or drop by our Manhattan store to speak with a representative. We can’t wait to hear from you!!</p>
+  <h3>Indoor/Outdoor</h3>
+  <p>Transform your outdoor space into a comfortable place to relax, eat, and gather. There’s no reason your backyard deck or rooftop hangout has to be cold and sparse. Use outdoor cushions, lounge chair pillows, and boat cushion upholstery from Beckenstein Fabrics & Interiors to make it warm, inviting, and interesting.
+
+Outdoor and indoor fabrics do double duty. They work as well on the patio as they do in the living room. What makes them unique is their resistance to both fading and staining. They also stand tough against mildew brought on by wet conditions. Able to withstand both sun and rain, heat and damp, outdoor cushions and upholstery are perfectly suited for any patio, deck, roof, balcony, or backyard. Give us a call or visit our New York City store, located in the heart of Manhattan, to choose from a wide selection of beautiful and durable fabrics with which to accent your outdoor furniture.</p>
+  <h3>Wallpaper</h3>
+  <p>Beckenstein Fabric and Interiors has a huge selection of wallpaper in NYC.
+
+There are thousands of patterns, colors and textures that wallpaper can offer. Polka dots, plaid, floral, geometric shapes and many other patterns to meet your decorating needs and personal style. Textured wall coverings can add depth and dimension to your walls which paint cannot. Some new wallpaper even has beading, sequins, lace, and ribbons that add more drama and style to a bare wall.
+
+You can even coordinate your wallpaper with your fabrics, so everything in your home is cohesive. It’s a wonderful way to bring elegant style to any room in your home. Our Exclusive Wallpaper Selections vary from Romo, to Scalamandre, to Thibaut, just to name a few. Visit our showroom where one of our designers can guide you through the selection process.</p>
+  <h3>Commercial Work</h3>
+  <p>Architects, Interior Designers, Business Owners and Property Managers: Beckenstein Commercial is your custom workroom. We work with you to design, build, and install new booths, banquettes, chairs, sofas, counter seating, wall and window treatments. Our technicians also reupholster and repair your existing furniture, perform installations, add wall coverings and install window treatments.
+
+We service hotels, restaurants, bars/lounges, clubs, retail stores, professional & medical offices, museums, theaters, building lobbies, halls and other common areas, and libraries.</p>
+</div>
+      <div class="location">
+      <h3>Location</h3>
+      <ul>
+      <li>Beckenstein Fabric + Interiors</li>
+      <li>32 West 20th Street</li>
+      <li>New York, NY 10011</li>
+      <li>877-781-5262</li>
+     
+      </ul>
+      </div>
+      <div class="storehour">
+      <h3>Store Hour</h3>
+      <ul>
+        <li>Mon - Sat: 10am - 6pm</li>
+        <li>Sunday: Closed</li>
+      </ul>
+      </div>
+      </section>
+    </div><!--row-->  
+  </div><!--container end here--> 
+<div class="container">
+  <div class="row">
+  <div class="head1">
+    <div class="col-md-4">
+    <h1>Trust</h1>
+    When you entrust Beckenstein Fabrics to create custom upholstery and slipcovers, you can be confident you’ll receive the world-class service and attention to detail on which we’ve built our reputation. Quality is at the forefront of everything we do—it’s why our upholstery furniture shop in New York City has flourished for nearly a century. Count on us to skillfully recover your furniture with the fabric of your choice, tailoring the look to your style and comfort.
+    </div>
+    <div class="col-md-4">
+    <h1>About Beckenstein Fabrics & Interiors</h1>
+      BECKENSTEIN FABRICS & INTERIORS is your source for thousands of fabulous fabrics, custom window treatments, superbly crafted upholstery and custom slipcovers. Let our design staff help you realize your vision whether you are reupholstering one chair or creating a design scheme for your home, office or retail space.
+
+At Beckenstein Fabric & Interiors we provide everything you need under one roof!  Our fabric and wall covering Library is filled with thousands of brilliant designs that make your projects happen. We reupholster or create new furniture; measure, construct and install custom window treatments and slipcovers; upholster walls; create all of your bedding needs and more.  We pick-up and deliver too!  We offer “Shop-at-Home” services, for your convenience.  Our design staff will come to you to help coordinate your fabric choices that fit your lifestyle; whether it’s traditional, modern or transitional, we can help.
+    </div>
+    <div class="col-md-4">
+    <h1>Sample</h1>
+    <img src="br/Designers-Guild-14.jpg" width="150" height="150" alt="Designers-Guild-14">
+    <img src="br/Designers-Guild-9.jpg" width="150" height="150" alt="Designers-Guild-9">
+     <img src="br/Designers-Guild-12.jpg" width="150" height="150" alt="Designers-Guild-12">
+    <img src="dr/Thibaut-19.png" width="150" height="150" alt="Thibaut-19">
+    </div>
+    </div>
+  </div>
+</div>   
+<div class="foot">
+  <div class="row">
+    <div class="col-md-4">
+    <h4 class="foothead">Services</h4>
+    <ul class="footservices">
+      <li><a href="us.html">Upholstery & Slipcovers</a></li>
+          <li><a href="wt.html">Window Treatement</a></li>
+          <li><a href="fabric.html">Fabric</a></li>
+          <li><a href="headboards.html">Headboards</a></li>
+          <li><a href="pc.html">Pillow & Cushions</a></li>
+          <li><a href="io.html">Indoor/Outdoor</a></li>
+          <li><a href="wallpaper.html">Wallpaper</a></li>
+          <li><a href="commerical.html">Commerical</a></li>
+    </ul>
+    </div>
+    <div class="col-md-4">
+    <h4 class="foothead">Site Link</h4>
+    <ul class="footservices">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallary">Gallary</a></li>
+       <li><a href="vendor.html">Vendor</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+  </div>
+    <div class="col-md-4">
+      <h4 class="foothead">Sign Up for Sales and New Arrivals</h4>
+      <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control inputboxwborder" aria-required="true" aria-invalid="false" placeholder="Your Email">
+      <button>Submit</button></span>
+      
+      
+    </div>
+</div>
+
+<script>
+  // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal2');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var modal = document.getElementById('myModal3');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img03");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var modal = document.getElementById('myModal4');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img04");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var modal = document.getElementById('myModal5');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img05");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var modal = document.getElementById('myModal6');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg6');
+var modalImg = document.getElementById("img06");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+</body>
+</html>
